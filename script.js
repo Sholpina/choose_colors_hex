@@ -6,3 +6,4 @@ function watchColorPicker(event) {
     p.style.color = event.target.value;
   });
 }
+colorPicker.addEventListener("input", updateFirst, false);
